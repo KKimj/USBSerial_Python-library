@@ -79,9 +79,9 @@ class USBSerial:
         '''
         if self:
             if self.serial:
-                print('Serial is opened')
+                print('> Serial is opened')
             else:
-                print('Serial is not opened')
+                print('> Serial is not opened')
             if self.port:
                 print('Port : %s'%(self.port))
             if self._baudrate:

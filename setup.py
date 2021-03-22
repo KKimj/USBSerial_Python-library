@@ -15,7 +15,7 @@ except(IOError, ImportError):
 
 setuptools.setup (
     name = 'USBSerial',
-    version = '1.0.0',
+    version = '1.0.1',
     license = 'GPL-3.0 License',
     description = 'HC-USBSerial Python library via Serial protocol, using pySerial library as API',
     long_description = long_description,
