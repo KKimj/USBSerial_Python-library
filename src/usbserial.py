@@ -42,7 +42,7 @@ class USBSerial:
         if not self.serial:
             self.close_serial()
         try:
-            self.serial = Serial(self._port, self._baudrate, self._timeout)
+            self.serial = Serial(port = self._port, baudrate = self._baudrate, timeout = self._timeout)
         except:
             print('Error : Can not open Serial, Retry!')
             return False
